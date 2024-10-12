@@ -12,9 +12,9 @@ function selectOption(option) {
         });
     } else if (option === 'no') {
         // Change text on the "No" button to "You sure?"
-        document.getElementById('no-button').innerText = 'You sure?'; 
+        document.getElementById('ill-still-try-but-ya').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
-        var yesButton = document.getElementById('yes-button');
+        var yesButton = document.getElementById('sige-i-wont-we-will-survive this-together-and-i-love-you-hehe');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
         yesButton.style.fontSize = newSize + 'px';
